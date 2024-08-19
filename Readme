@@ -1,22 +1,27 @@
-# Benchmarking Architectural Performance in Go
+<h1 align="center">
+ ✔️ Benchmarking Architectural Performance in Go ✔️
+</h1>
 
-## Overview
+## 💻 About the Project
 
-This repository contains the benchmarking code used to evaluate different processing architectures in Go, specifically focusing on image processing tasks such as resizing and grayscaling. The primary goal of this benchmark is to measure and compare the processing times across three distinct architectures: a pipeline architecture, sequential processing without a pipeline, and parallel processing without a pipeline.
-
-## Repository Structure
-
-- **src/**: Contains all the source code for the image processing tasks.
-- **images/**: Directory for the sample images used in the benchmark.
+♻️ This repository contains the benchmarking code used to evaluate different processing architectures in Go, specifically focusing on image processing tasks such as resizing and grayscaling. The primary goal of this benchmark is to measure and compare the processing times across three distinct architectures: a pipeline architecture, sequential processing without a pipeline, and parallel processing without a pipeline.
 
 ## Running the Benchmark
 
 To run the benchmark, ensure you have Go installed on your system and follow these steps:
 
-1. Clone the repository to your local machine.
-2. Navigate to the repository directory.
-3. Run the command `make` to build the binary, and then execute `./main` to run the benchmark.
+```bash
+# Clone this repository
+$ git clone https://github.com/joao99sb/banchmark-go-architecture
 
-## Benchmark Results
+# Go into the repository
+$ cd banchmark-go-architecture
 
-The results of the benchmark will be displayed in the console. This includes the processing time for each architecture. Users can observe the performance differences directly in the terminal, allowing for immediate comparison and analysis.
+# Build the binary
+$ make
+
+# Run the benchmark
+$ ./main
+```
+
+The application will display the results directly in the terminal
